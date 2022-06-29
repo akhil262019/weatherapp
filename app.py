@@ -3,7 +3,8 @@ from flask_sqlalchemy  import SQLAlchemy
 import requests
 import string
 
-app=Flask(__name__)
+application=Flask(__name__)
+app=application
 app.config['DEBUG']=True
 app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///weather.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
