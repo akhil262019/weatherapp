@@ -1,3 +1,4 @@
 Flask
 Flask_sqlalchemy
 Flask_restful
+requests
