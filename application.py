@@ -3,6 +3,8 @@ from flask_sqlalchemy  import SQLAlchemy
 import requests
 import string
 
+
+
 application=Flask(__name__)
 app=application
 app.config['DEBUG']=True
